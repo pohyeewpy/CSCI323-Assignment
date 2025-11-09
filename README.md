@@ -1,5 +1,5 @@
 # Sentimental Analysis with Naive Bayes (CSCI323-Assignment)
-# Group FT26 - Proj14
+Group FT26 - Proj14
 
 This is a group project for CSCI323, a local web app that analyzes restaurant reviews using a trained TF-IDF + Logistic Regression sentiment model.
 
