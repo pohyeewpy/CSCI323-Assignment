@@ -1,0 +1,28 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - SEALION_API_KEY=sk-TSbEBjqQN9HKMcutANxL5A
+      - SEALION_BASE=https://api.sea-lion.ai/v1
+      - SEALION_TIMEOUT=200
+      - SEALION_RETRIES=0
+      - SEALION_MODEL=aisingapore/Gemma-SEA-LION-v4-27B-IT
+      - USE_SEALION=1
+      - CSV_PATH=/app/reviews.csv
+    networks:
+      - default
+    # If you want to swap CSV without rebuild:
+    # volumes:
+    #   - ./backend/reviews.csv:/app/reviews.csv:ro
+
+  web:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    environment:
+      # Browser will call your host's mapped port, so localhost is correct
+      - VITE_API_BASE=http://localhost:8000
+    depends_on:
+      - api
