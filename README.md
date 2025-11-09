@@ -8,7 +8,8 @@ This is a group project for CSCI323, a local web app that analyzes restaurant re
 ## What’s Included
 - Training model colab file: FTGroup26_Sentiment_Analysis.ipynb
 - Website code folder: reviewlens_stack
-- Models:
+- Datasets used: GoogleReview_balanced.csv
+Models:
 1. vectorizer.joblib
 2. mnb.joblib
 3. logistic.joblib
