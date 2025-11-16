@@ -60,7 +60,9 @@ reviewlens_stack/
 3. Edit the folder path section in Colab to your Google Drive folder containing the dataset
 
    Example: df = pd.read_csv("/content/drive/MyDrive/CSCI323SentimentAnalysis/dataset/GoogleReview_balanced.csv")
+
             change to be ...
+
             df = pd.read_csv("/content/drive/MyDrive/Your_Folder_Name/GoogleReview_balanced.csv")
 5. Run the colab file
 6. This will demonstrate the model training process which will then output:
