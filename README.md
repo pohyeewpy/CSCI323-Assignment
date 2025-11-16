@@ -1,7 +1,7 @@
 # Sentimental Analysis with Naive Bayes (CSCI323-Assignment)
 Group FT26 - Proj14
 
-This is a group project for CSCI323, a local web app that analyzes restaurant reviews using a trained TF-IDF + Linear SVM sentiment model.
+This is a group project for CSCI323, a local web app that analyzes restaurant reviews using a trained Linear SVM sentiment model.
 
 All diagram OUTPUTS are in the .ipynb file provided.
 
