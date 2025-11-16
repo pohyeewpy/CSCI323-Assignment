@@ -52,10 +52,23 @@ reviewlens_stack/
       main.jsx
       index.css
 ```
+---
+
+## How to Reproduce Key Results (Figures, Tables, Metrics)
+1. Open the 'FTGroup26_Sentiment_Analysis.ipynb' file in Google Colab
+2. Upload the dataset 'GoogleReview_balanced.csv' to your Google Drive
+3. Edit the folder path section in Colab to your Google Drive folder containing the dataset
+   Example: df = pd.read_csv("/content/drive/MyDrive/CSCI323SentimentAnalysis/dataset/GoogleReview_balanced.csv")
+            change to be ...
+            df = pd.read_csv("/content/drive/MyDrive/Your_Folder_Name/GoogleReview_balanced.csv")
+5. Run the colab file
+6. This will demonstrate the model training process which will then output:
+   - Figures, Tables, and Metrics given in the presentation slides and the report document
+   - Joblib models for usage in the web app code
 
 ---
 
-## Run the App
+## How to Run the Web App
 1. Open a terminal in the project root folder (where `docker-compose.yml` is located) or run it in VSCode.
 2. Start docker  
 3. Build and start all containers:
