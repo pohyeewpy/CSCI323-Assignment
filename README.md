@@ -58,6 +58,7 @@ reviewlens_stack/
 1. Open the 'FTGroup26_Sentiment_Analysis.ipynb' file in Google Colab
 2. Upload the dataset 'GoogleReview_balanced.csv' to your Google Drive
 3. Edit the folder path section in Colab to your Google Drive folder containing the dataset
+
    Example: df = pd.read_csv("/content/drive/MyDrive/CSCI323SentimentAnalysis/dataset/GoogleReview_balanced.csv")
             change to be ...
             df = pd.read_csv("/content/drive/MyDrive/Your_Folder_Name/GoogleReview_balanced.csv")
