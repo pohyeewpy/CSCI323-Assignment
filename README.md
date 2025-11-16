@@ -1,5 +1,5 @@
-# ReviewLens: A Comparative Study of Naïve Bayes, Logistic Regression and Linear SVM for TF-IDF Sentiment Analysis of Singapore Restaurant Reviews (CSCI323-Assignment)
-Group FT26 - Proj14
+# ReviewLens: A Comparative Study of Naïve Bayes, Logistic Regression and Linear SVM for TF-IDF Sentiment Analysis of Singapore Restaurant Reviews (Group FT26 - Proj14)
+## CSCI323-Assignment 
 
 This is a group project for CSCI323, a local web app that analyzes restaurant reviews using a trained Linear SVM sentiment model.
 
