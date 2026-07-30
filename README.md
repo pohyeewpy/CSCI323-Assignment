@@ -134,7 +134,7 @@ http://localhost:8000/api/report?place=The%20Cow
 ---
 
 ## Notes
-- All processing of web app is offline, using your local trained model.  
+- All processing of web app is offline, using the local trained model.  
 - Both frontend and backend run automatically through Docker; no manual setup needed.  
 - To stop containers:  
   ```bash
